@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="text-white flex items-center justify-between py-10 xl:flex-col xl:text-center">
             <div>
                 <p className="font-bold text-2xl">Hi there, I'm Ixartz 👋</p>
-                <p className="w-[600px] font-normal py-5 smm:w-[300px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus <span className="text-blueColor">malesuada</span> nisi tellus, non  
+                <p className="w-[600px] font-normal py-5 md:w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus <span className="text-blueColor">malesuada</span> nisi tellus, non  
                 <span className="text-blueColor"> imperdiet</span> nisi tempor at. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                 eiusmod tempor incididunt ut labore et dolore.</p>
                 <div className="flex xl:justify-center">

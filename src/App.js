@@ -8,7 +8,7 @@ import Projects from './components/Projects';
 
 function App() {
   return ( 
-    <div className="bg-mainbgcolor pl-52 pr-52 overflow-hidden smm:pl-0 smm:pr-0 xl:pl-40 xl:pr-40 lg:pl-28 lg:pr-28 md:p-0">
+    <div className="bg-mainbgcolor pl-52 pr-52 overflow-hidden xl:pl-10 xl:pr-10 smm:pl-3 smm:pr-3">
       <Header/>
       <Hero/>
       <Projects/>

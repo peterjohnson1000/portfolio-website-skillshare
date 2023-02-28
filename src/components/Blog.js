@@ -4,10 +4,11 @@ const Blog = () => {
     return (
         <div>
             <div className="flex justify-between items-center">
-                <p className="font-bold text-2xl text-white py-10">Recent <span className="text-blueColor">Projects</span></p>
+                <p className="font-bold text-2xl text-white py-10">Recent <span className="text-blueColor">Blogs</span></p>
                 <p className="font-bold text-lg text-white py-10">View all Posts →</p>
             </div>
-            <div className="flex rounded-sm">
+            <div className="flex rounded-sm md:flex-col md:items-center ">
+                
                 <div className="bg-[#1E293B] w-80 text-center">
                     <div>
                         <img className="rounded-t-md" src={blogimage}/>
@@ -21,7 +22,7 @@ const Blog = () => {
                     </div>
                 </div>
                 
-                <div className="bg-[#1E293B] w-80 text-center ml-5">
+                <div className="bg-[#1E293B] w-80 text-center ml-5 md:ml-0 md:my-5">
                     <div>
                         <img className="rounded-t-md" src={blogimage}/>
                     </div>
@@ -34,7 +35,7 @@ const Blog = () => {
                     </div>
                 </div>
                 
-                <div className="bg-[#1E293B] w-80 text-center ml-5">
+                <div className="bg-[#1E293B] w-80 text-center ml-5 md:ml-0">
                     <div>
                         <img className="rounded-t-md" src={blogimage}/>
                     </div>
